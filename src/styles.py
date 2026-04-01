@@ -2,7 +2,7 @@ CSS_STYLES = """
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap');
 html, body, [class*="css"] { font-family: 'Inter', sans-serif; background: #fff !important; color: #0a0a0a; }
-#MainMenu, footer, header { visibility: hidden; }
+#MainMenu, footer, header, .stDeployButton, a[href^="https://streamlit.io/cloud"] { visibility: hidden !important; display: none !important; }
 .block-container { padding-top: 1.5rem !important; max-width: 1080px !important; }
 .hero { text-align: center; padding: 3.5rem 1rem 1rem; }
 .badge { display: inline-block; font-size: .72rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; border: 1.5px solid #0a0a0a; border-radius: 100px; padding: .28rem .9rem; margin-bottom: 1.2rem; }
